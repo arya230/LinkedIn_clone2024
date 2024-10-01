@@ -59,7 +59,9 @@ i[class="fa-solid fa-magnifying-glass"] {
 span {
     color: grey;
 }
-
+p {
+    color: grey;
+}
 i {
     font-size: 28px; 
 }
@@ -127,47 +129,59 @@ main {
 .content-left {
     border-radius: 5px;
     height: 500px;
-    width: 250px;
+    width: 280px;
     background-color: aquamarine;
     margin-top: 20px;
     margin-left: 40px;
 }
-.top-part {
+.top {
     height: 50%;
 
 }
-.top {
+.top-first-part {
     height: 25%;
     background-color: grey;
 }
-.top>img {
+.top-first-part>img {
     height: 60px;
     position: relative;
     left: 100px;
     top: 40px;
 }
-.middle{
+.top-second-part{
     display: flex;
     justify-content: center ;
     align-items: center;
     flex-direction: column;
     
 }
-.middle > h3 {
+.top-second-part > h3 {
     padding-top: 60px;
 }
-.middle>p {
+.top-second-part>p {
     margin-left: 50px;
 }
-.sec-last {
+.bottom {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
+    
 }
-.sec-last > .profile-details {
+
+.bottom > .bottom-profile-details {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    /* margin-top: 10px;
+    margin-left: 10px; */
 }
-
-
-
+.bottom-connection-details {
+    display: flex;  
+    /* justify-content: center;  */
+    align-items: center;
+}
+.connections {
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 10px;
+    margin-left: 10px;*/
+}
