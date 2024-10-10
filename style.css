@@ -232,3 +232,14 @@ p {
     font-size:  large;
 
 }
+
+.content-center {
+    background-color: aquamarine;
+    margin-left: 100px;
+    width: 500px;
+    height: 100px;
+}
+
+.center-top {
+    
+}
